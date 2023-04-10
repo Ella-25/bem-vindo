@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #181717;
+        }
+        ul {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        ul li {
+            list-style: none;
+            font-family: 30pt Arial;
+            letter-spacing: 20px;
+            text-shadow: none;
+            animation: animate 1s infinite linear;
+        }
+        @keyframes animate {
+            0% {
+                color: #484848;
+                text-shadow: none;
+            }
+            18% {
+                color: #484848;
+                text-shadow: none;
+            }
+            20% {
+                color: #1eff00ee;
+                text-shadow: 0 0 7px #1eff00ee,
+                0 0 20px #00fff2ee;
+            }
+            30% {
+                color: #484848;
+                text-shadow: none;
+            }
+            35% {
+                color: #1eff00ee;
+                text-shadow: 0 0 7px #1eff00ee,
+                0 0 20px #00fff2ee;
+            }
+            70% {
+                color: #1eff00ee;
+                text-shadow: none;
+            }
+            85% {
+                color: #1eff00ee;
+                text-shadow: 0 0 7px #1eff00ee,
+                0 0 20px #00fff2ee;
+            }
+            90% {
+                color: #484848;
+                text-shadow: #484848;
+            }
+            100% {
+                color: #484848;
+                text-shadow: none;
+            }
+        }
+        ul li:nth-child(1) {
+            animation-delay: .2s;
+        }
+        ul li:nth-child(2) {
+            animation-delay: .4s;
+        }
+        ul li:nth-child(3) {
+            animation-delay: .6s;
+        }
+        ul li:nth-child(4) {
+            animation-delay: .8s;
+        }
+        ul li:nth-child(5) {
+            animation-delay: 1s;
+        }
+        ul li:nth-child(6) {
+            animation-delay: 1.2s;
+        }
+        ul li:nth-child(7) {
+            animation-delay: 1.4s;
+        }
+        ul li:nth-child(8) {
+            animation-delay: 1.6s;
+        }
+        ul li:nth-child(9) {
+            animation-delay: 1.8s;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>B</li>
+        <li>E</li>
+        <li>M</li>
+        <li>-</li>
+        <li>V</li>
+        <li>I</li>
+        <li>N</li>
+        <li>D</li> 
+        <li>O</li>     
+    </ul>
+</body>
+</html>
